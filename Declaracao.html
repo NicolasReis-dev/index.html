@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para a Mulher da Minha Vida, Melissa</title>
+    <!-- Carregamento do Tailwind CSS via CDN --><script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        /* Define a fonte Inter como padrão e cores personalizadas */
+        :root {
+            --color-light-purple: #D1C4E9; /* Roxo Claro */
+            --color-dark: #000000; /* Preto */
+            --color-text-dark: #1F2937; /* Cinza escuro para texto principal */
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--color-light-purple); /* Fundo da página em Roxo Claro */
+            color: var(--color-text-dark);
+        }
+        /* Classe para inverter as cores na seção */
+        .section-dark {
+            background-color: var(--color-dark);
+            color: var(--color-light-purple);
+        }
+        /* Efeito de transição suave */
+        .transition-colors {
+            transition: background-color 300ms ease, color 300ms ease;
+        }
+        /* Classes de object-fit removidas, pois não vamos mais cortar as imagens */
+    </style>
+</head>
+<body class="min-h-screen transition-colors">
+
+    <!-- Header / Hero Section --><header class="h-screen flex items-center justify-center text-center p-8 bg-black text-white" style="background-color: var(--color-dark); color: var(--color-light-purple);">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight mb-4 transition-transform duration-500 hover:scale-105">
+                Para a Mulher Que Mudou Meu Mundo, Melissa.
+            </h1>
+            <p class="text-xl sm:text-2xl font-light opacity-80 mt-6">
+                Uma declaração de Nicolas, escrita com todo o amor que sinto por você.
+            </p>
+            <a href="#amor-infinito" class="mt-10 inline-block px-8 py-3 text-lg font-semibold bg-white text-black rounded-full shadow-lg hover:bg-purple-100 hover:shadow-xl transition duration-300">
+                Começar a Declaração ❤️
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção 1: Amor por Ela (Fundo Claro) --><section id="amor-infinito" class="py-16 md:py-24 px-6 transition-colors" style="background-color: var(--color-light-purple);">
+            <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+                <div class="order-2 md:order-1">
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-4">
+                        Meu Amor por Você é Infinito
+                    </h2>
+                    <p class="text-lg leading-relaxed">
+                        É um sentimento que transcende as palavras, uma âncora que me mantém firme e o motivo do meu sorriso. Desde o primeiro 'oi', soube que minha jornada tinha acabado de começar, e é ao seu lado que eu quero completá-la. Você é o meu porto seguro e a minha maior aventura.
+                    </p>
+                </div>
+                <!-- MUDANÇA: Removida altura fixa (h-80 md:h-96) do div. Imagem com h-auto. -->
+                <div class="order-1 md:order-2 rounded-xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition duration-500">
+                    <img src="img1.JPG" alt="Melissa fazendo bico" class="w-full h-auto rounded-xl">
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 2: Como Ela é Linda (Fundo Escuro) --><section class="section-dark py-16 md:py-24 px-6 transition-colors">
+            <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+                <!-- MUDANÇA: Removida altura fixa (h-80 md:h-96) do div. Imagem com h-auto. -->
+                <div class="rounded-xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition duration-500">
+                    <img src="img2.JPG" alt="Close-up de Melissa no carro" class="w-full h-auto rounded-xl">
+                </div>
+                <div>
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-4">
+                        Simplesmente Linda, Por Dentro e Por Fora
+                    </h2>
+                    <p class="text-lg leading-relaxed opacity-90">
+                        Melissa, sua beleza é um presente que a natureza nos deu. Seus olhos, seu sorriso, cada detalhe do seu rosto me hipnotiza. Mas a verdadeira beleza está na sua alma gentil, na forma como você trata o mundo e na sua força. Você é um espetáculo em pessoa.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 3: Como Ela é Legal (Fundo Claro) --><section class="py-16 md:py-24 px-6 transition-colors" style="background-color: var(--color-light-purple);">
+            <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+                <div class="order-2 md:order-1">
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-4">
+                        Sua Companhia Me Faz Tão Bem, Que Garota Legal!
+                    </h2>
+                    <p class="text-lg leading-relaxed">
+                        Você é divertida, inteligente e tem o humor mais contagiante. Estar ao seu lado é fácil e natural. Seja em uma aventura ou maratonando séries, o tempo com você é sempre o melhor tempo. Sua personalidade cativante é a luz da minha vida.
+                    </p>
+                </div>
+                <!-- MUDANÇA: Removida altura fixa (h-80 md:h-96) do div. Imagem com h-auto. -->
+                <div class="order-1 md:order-2 rounded-xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition duration-500">
+                    <img src="img3.JPG" alt="Melissa com um buquê de rosas vermelhas" class="w-full h-auto rounded-xl">
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 4: Como Ela é Gostosa (Fundo Escuro) --><section class="section-dark py-16 md:py-24 px-6 transition-colors">
+            <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+                <!-- MUDANÇA: Removida altura fixa (h-80 md:h-96) do div. Imagem com h-auto. -->
+                <div class="rounded-xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition duration-500">
+                    <img src="img4.JPG" alt="Melissa com filtro 'I love my boyfriend'" class="w-full h-auto rounded-xl">
+                </div>
+                <div>
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-4">
+                        Minha Gata, Você É Demais (E Gostosa!)
+                    </h2>
+                    <p class="text-lg leading-relaxed opacity-90">
+                        Não podemos negar a química, Mel. Seu jeito, seu corpo, sua presença... tudo em você é incrivelmente atraente. Você é a mulher mais sexy que já conheci, e eu sou um sortudo por ter essa atração e essa paixão correspondidas. Você me tira o fôlego.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 5: Como Ela é Perfeita (Fundo Claro) --><section class="py-16 md:py-24 px-6 transition-colors" style="background-color: var(--color-light-purple);">
+            <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+                <div class="order-2 md:order-1">
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-4">
+                        Para Mim, Você é Simplesmente Perfeita
+                    </h2>
+                    <p class="text-lg leading-relaxed">
+                        Não existe erro, nem defeito. Para mim, Melissa, você é perfeita na sua essência. Não em um sentido irreal, mas perfeita no sentido de ser a peça que faltava no meu quebra-cbra-cabeça. Você é completa, única e a mulher com quem sempre sonhei. Minha perfeição.
+                    </p>
+                </div>
+                <!-- MUDANÇA: Removida altura fixa (h-80 md:h-96) do div. Imagem com h-auto. -->
+                <div class="order-1 md:order-2 rounded-xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition duration-500">
+                    <img src="img5.JPG" alt="Melissa tirando selfie no espelho" class="w-full h-auto rounded-xl">
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 6: Como Ela faz o mundo ser melhor (Fundo Escuro) --><section class="section-dark py-16 md:py-24 px-6 transition-colors">
+            <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+                <!-- MUDANÇA: Removida altura fixa (h-80 md:h-96) do div. Imagem com h-auto. -->
+                <div class="rounded-xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition duration-500">
+                    <img src="img6.JPG" alt="Melissa fazendo bico, foto noturna" class="w-full h-auto rounded-xl">
+                </div>
+                <div>
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-4">
+                        Você Faz Meu Mundo Ser Infinitamente Melhor
+                    </h2>
+                    <p class="text-lg leading-relaxed opacity-90">
+                        Cada dia é uma nova chance de ser feliz, graças a você. A forma como você me apoia, me desafia e me ama incondicionalmente transforma o ordinário em extraordinário. Você me ensina a amar e a ser uma pessoa melhor a cada amanhecer. Obrigado por existir.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Final --><section class="py-16 md:py-24 text-center" style="background-color: var(--color-light-purple);">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-4xl sm:text-5xl font-extrabold mb-4">
+                    Eu Te Amo, Melissa!
+                </h2>
+                <p class="text-xl sm:text-2xl font-light">
+                    Para sempre seu, Nicolas.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer --><footer class="py-8 text-center section-dark text-sm opacity-75">
+        &copy; 2025-Eternidade Declaração de Amor de Nicolas. Feito com todo o coração para a Mel.
+    </footer>
+
+</body>
+</html>
+
